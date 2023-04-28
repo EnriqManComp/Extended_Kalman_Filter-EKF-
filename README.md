@@ -8,3 +8,6 @@ the extended Kalman filtering.
 
 In summary can we implement EKF using the following equations:
 
+![Estimation equations](https://github.com/EnriqManComp/Extended_Kalman_Filter-EKF-/blob/master/EKF_form.png)
+
+
