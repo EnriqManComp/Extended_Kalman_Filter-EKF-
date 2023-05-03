@@ -6,7 +6,7 @@ One approach to state estimation for nonlinear systems is to linearize the equat
 estimate and then apply Kalman's equations using the resulting approximation. This formulation is called
 the extended Kalman filtering.
 
-In summary can we implement EKF using the following equations:
+In summary we can implement EKF using the following equations:
 
 Prediction equations:
 
@@ -29,5 +29,13 @@ Where K at t is a weight factor to consider the observation value, H at t is the
  ![Ht Jacobian](https://github.com/EnriqManComp/Extended_Kalman_Filter-EKF-/blob/master/Theory%20images/Ht.png)
  
  # Description of the code:
+ In this particular case, we setup controls with constant linear and angular velocities. Then, we add random noise using normal distribution to the controls and the observations provided by the sensor.
+ 
+ | Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Celda 1   | Celda 2   | Celda 3   |
+| Celda 4   | Celda 5   | Celda 6   |
+| Celda 7   | Celda 8   | Celda 9   |
+
  
  
